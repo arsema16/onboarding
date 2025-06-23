@@ -1,0 +1,26 @@
+[
+  {
+    "interest": "Fitness",
+    "rive": "assets/rive/fitness_avatar.riv"
+  },
+  {
+    "interest": "Coding",
+    "rive": "assets/rive/coding_avatar.riv"
+  },
+  {
+    "interest": "Art",
+    "rive": "assets/rive/art_avatar.riv"
+  },
+  {
+    "interest": "Music",
+    "rive": "assets/rive/music_avatar.riv"
+  },
+  {
+    "interest": "Gaming",
+    "rive": "assets/rive/gaming_avatar.riv"
+  },
+  {
+    "interest": "Travel",
+    "rive": "assets/rive/travel_avatar.riv"
+  }
+]
