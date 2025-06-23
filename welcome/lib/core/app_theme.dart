@@ -12,6 +12,6 @@ ThemeData darkTheme = ThemeData(
   brightness: Brightness.dark,
   colorScheme: ColorScheme.dark(
     primary: Colors.blue,
-    secondary: Colors.purple,
+    secondary: const Color.fromARGB(255, 103, 98, 104),
   ),
 );

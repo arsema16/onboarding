@@ -86,10 +86,9 @@ class _InterestChipState extends State<InterestChip> with TickerProviderStateMix
     }[widget.interest];
 
     final gradientColors = [
-  const Color.fromARGB(255, 150, 148, 151),
-  const Color.fromARGB(255, 140, 137, 146),
-];
-
+                      theme.colorScheme.primary,
+                      theme.colorScheme.secondary,
+                    ];
 
     return AnimatedBuilder(
       animation: Listenable.merge([_glowController, _bounceController]),

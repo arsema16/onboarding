@@ -79,8 +79,8 @@ class _GlowingButtonState extends State<GlowingButton> with SingleTickerProvider
       },
       child: ElevatedButton.icon(
         style: ElevatedButton.styleFrom(
-          backgroundColor: primaryColor,
-          foregroundColor: onPrimary,
+          backgroundColor: Theme.of(context).colorScheme.secondary,
+                      foregroundColor: Colors.white,
           padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 14),
           textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
         ),
